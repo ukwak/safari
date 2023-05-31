@@ -117,7 +117,7 @@ class CircleOfLife:
         self.display()
         for _ in range(num_timesteps):
             self.timestep += 1
-            #os.system('cls')
+            os.system('cls')
             self.step_move()
             self.display()
             self.step_breed()
