@@ -121,10 +121,11 @@ class CircleOfLife:
             self.step_move()
             self.display()
             self.step_breed()
+            self.display()
             self.housekeeping()
 
 if __name__ == '__main__':
     zebra = Zebra(0,0)
     lion = Lion(0,0)
-    safari = CircleOfLife(5, 1, 1)
-    safari.run(100)
+    safari = CircleOfLife(20, 200, 100)
+    safari.run(1000)

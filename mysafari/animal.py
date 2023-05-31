@@ -17,7 +17,7 @@ class Animal:
             self.x, self.y = chosen_neighbor
             grid[self.x][self.y].hp = 0
             grid[self.x][self.y] = self
-            print(buffer + ' to:', self.x, ',', self.y)
+            #print(buffer + ' to:', self.x, ',', self.y)
             return True
         else:
             return False
